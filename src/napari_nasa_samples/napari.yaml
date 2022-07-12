@@ -1,11 +1,41 @@
 name: napari-nasa-samples
-display_name: Nasa sample images
+display_name: NASA sample images
 contributions:
   commands:
-    - id: napari-nasa-samples.make_sample_data
-      python_name: napari_nasa_samples._sample_data:make_sample_data
-      title: Load sample data from Nasa sample images
+    - id: napari-nasa-samples.blue_marble
+      python_name: napari_nasa_samples._blue_marble:make_sample_data
+      title: Blue Marble
+
+    - id: napari-nasa-samples.cosmic_cliffs
+      python_name: napari_nasa_samples._cosmic_cliffs:make_sample_data
+      title: Cosmic Cliffs
+    - id: napari-nasa-samples.smacs_0723
+      python_name: napari_nasa_samples._smacs_0723:make_sample_data
+      title: Deep Field SMACS 0723
+    - id: napari-nasa-samples.stephans_quintet
+      python_name: napari_nasa_samples._stephans_quintet:make_sample_data
+      title: Stephan's Quintet (NIRCam and MIRI)
+    - id: napari-nasa-samples.southern_ring_nebula
+      python_name: napari_nasa_samples._southern_ring_nebula:make_sample_data
+      title: Southern Ring Nebula (NIRCam Image)
   sample_data:
-    - command: napari-nasa-samples.make_sample_data
-      display_name: Nasa sample images
-      key: unique_id.1
+    - key: blue_marble
+      command: napari-nasa-samples.blue_marble
+      display_name: Blue Marble
+
+    - key: cosmic_cliffs
+      command: napari-nasa-samples.cosmic_cliffs
+      display_name: Cosmic Cliffs, Carina Nebula, NIRCam Image, JWST
+    - key: smacs_0723
+      command: napari-nasa-samples.smacs_0723
+      display_name: Deep Field SMACS 0723, NIRCam Image, JWST
+    - key: stephans_quintet
+      command: napari-nasa-samples.stephans_quintet
+      display_name: Stephan's Quintet NIRCam and MIRI, JWST
+    - key: southern_ring_nebula
+      command: napari-nasa-samples.southern_ring_nebula
+      display_name: Southern Ring Nebula NIRCam Image, JWST
+
+
+
+

@@ -3,8 +3,8 @@
 [![License Mozilla Public License 2.0](https://img.shields.io/pypi/l/napari-nasa-samples.svg?color=green)](https://github.com/royerlab/napari-nasa-samples/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/napari-nasa-samples.svg?color=green)](https://pypi.org/project/napari-nasa-samples)
 [![Python Version](https://img.shields.io/pypi/pyversions/napari-nasa-samples.svg?color=green)](https://python.org)
-[![tests](https://github.com/royerlab/napari-nasa-samples/workflows/tests/badge.svg)](https://github.com/royerlab/napari-nasa-samples/actions)
-[![codecov](https://codecov.io/gh/royerlab/napari-nasa-samples/branch/main/graph/badge.svg)](https://codecov.io/gh/royerlab/napari-nasa-samples)
+[![tests](https://github.com/royerloic/napari-nasa-samples/workflows/tests/badge.svg)](https://github.com/royerlab/napari-nasa-samples/actions)
+[![codecov](https://codecov.io/gh/royerloic/napari-nasa-samples/branch/main/graph/badge.svg)](https://codecov.io/gh/royerlab/napari-nasa-samples)
 [![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-nasa-samples)](https://napari-hub.org/plugins/napari-nasa-samples)
 
 This napari plugin provides sample datasets from NASA.
@@ -31,7 +31,7 @@ You can install `napari-nasa-samples` via [pip]:
 
 To install latest development version :
 
-    pip install git+https://github.com/royerlab/napari-nasa-samples.git
+    pip install git+https://github.com/royerloic/napari-nasa-samples.git
 
 
 ## Contributing
