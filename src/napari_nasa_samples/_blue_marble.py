@@ -12,5 +12,5 @@ from napari_nasa_samples.utils import get_array
 
 def make_sample_data():
     """Generates an image"""
-    array = get_array("https://visibleearth.nasa.gov/images/57752/blue-marble-land-surface-shallow-water-and-shaded-topography/57759l")
+    array = get_array("https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_east.tif")
     return [(array, {'name': "Blue Marble, NASA"})]
