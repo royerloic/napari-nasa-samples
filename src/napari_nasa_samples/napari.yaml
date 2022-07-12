@@ -1,0 +1,11 @@
+name: napari-nasa-samples
+display_name: Nasa sample images
+contributions:
+  commands:
+    - id: napari-nasa-samples.make_sample_data
+      python_name: napari_nasa_samples._sample_data:make_sample_data
+      title: Load sample data from Nasa sample images
+  sample_data:
+    - command: napari-nasa-samples.make_sample_data
+      display_name: Nasa sample images
+      key: unique_id.1
