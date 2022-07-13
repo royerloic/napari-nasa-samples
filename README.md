@@ -9,6 +9,8 @@
 
 This napari plugin provides sample datasets from NASA.
 
+![](https://github.com/royerloic/napari-nasa-samples/raw/main/docs/images/teaser.gif)
+
 ----------------------------------
 
 This [napari] plugin was generated with [Cookiecutter] using [@napari]'s [cookiecutter-napari-plugin] template.
