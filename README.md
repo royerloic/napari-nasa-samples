@@ -9,7 +9,7 @@
 
 This napari plugin provides sample datasets from NASA.
 
-![](docs/images/teaser.gif)
+![](https://github.com/royerloic/napari-nasa-samples/raw/main/docs/images/teaser.gif)
 
 ----------------------------------
 
