@@ -6,22 +6,43 @@ contributions:
       python_name: napari_nasa_samples._blue_marble:make_sample_data
       title: Blue Marble
 
+    - id: napari-nasa-samples.messier_101
+      python_name: napari_nasa_samples._hubble_messier_101:make_sample_data
+      title: Messier 101
+    - id: napari-nasa-samples.pillars_of_creation
+      python_name: napari_nasa_samples._hubble_pillars_of_creation:make_sample_data
+      title: Pillars of Creation
+    - id: napari-nasa-samples.large_magellanic_cloud
+      python_name: napari_nasa_samples._hubble_lmc:make_sample_data
+      title: Large Magellanic Cloud
+
     - id: napari-nasa-samples.cosmic_cliffs
-      python_name: napari_nasa_samples._cosmic_cliffs:make_sample_data
+      python_name: napari_nasa_samples._jwst_cosmic_cliffs:make_sample_data
       title: Cosmic Cliffs
     - id: napari-nasa-samples.smacs_0723
-      python_name: napari_nasa_samples._smacs_0723:make_sample_data
+      python_name: napari_nasa_samples._jwst_smacs_0723:make_sample_data
       title: Deep Field SMACS 0723
     - id: napari-nasa-samples.stephans_quintet
-      python_name: napari_nasa_samples._stephans_quintet:make_sample_data
+      python_name: napari_nasa_samples._jwst_stephans_quintet:make_sample_data
       title: Stephan's Quintet (NIRCam and MIRI)
     - id: napari-nasa-samples.southern_ring_nebula
-      python_name: napari_nasa_samples._southern_ring_nebula:make_sample_data
+      python_name: napari_nasa_samples._jwst_southern_ring_nebula:make_sample_data
       title: Southern Ring Nebula (NIRCam Image)
+
   sample_data:
     - key: blue_marble
       command: napari-nasa-samples.blue_marble
       display_name: Blue Marble
+
+    - key: messier_101
+      command: napari-nasa-samples.messier_101
+      display_name: Messier 101, Hubble
+    - key: pillars_of_creation
+      command: napari-nasa-samples.pillars_of_creation
+      display_name: Pillars of Creation, Hubble
+    - key: large_magellanic_cloud
+      command: napari-nasa-samples.large_magellanic_cloud
+      display_name: Large Magellanic Cloud, Hubble
 
     - key: cosmic_cliffs
       command: napari-nasa-samples.cosmic_cliffs
