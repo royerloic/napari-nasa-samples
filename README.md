@@ -7,7 +7,12 @@
 [![codecov](https://codecov.io/gh/royerloic/napari-nasa-samples/branch/main/graph/badge.svg)](https://codecov.io/gh/royerlab/napari-nasa-samples)
 [![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-nasa-samples)](https://napari-hub.org/plugins/napari-nasa-samples)
 
-This napari plugin provides sample datasets from NASA.
+This napari plugin written [by Loic A. Royer](https://twitter.com/loicaroyer) provides sample datasets from NASA.
+In particular, you can access directly from napari the recently released images for the [James Webb Space Telescope](https://webb.nasa.gov/), as well as
+some of the classic and most beautiful images obtained by the venerable and still strong [Hubble Space Telescope](https://hubblesite.org/). 
+More images will be added over time.
+
+Thanks to (NASA)[https://www.nasa.gov/] for releasing these incredible images!
 
 ![](https://github.com/royerloic/napari-nasa-samples/raw/main/docs/images/teaser.gif)
 

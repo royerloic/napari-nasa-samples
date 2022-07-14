@@ -2,9 +2,9 @@ name: napari-nasa-samples
 display_name: NASA sample images
 contributions:
   commands:
-    - id: napari-nasa-samples.blue_marble
-      python_name: napari_nasa_samples._blue_marble:make_sample_data
-      title: Blue Marble
+#    - id: napari-nasa-samples.blue_marble
+#      python_name: napari_nasa_samples._blue_marble:make_sample_data
+#      title: Blue Marble
 
     - id: napari-nasa-samples.messier_101
       python_name: napari_nasa_samples._hubble_messier_101:make_sample_data
@@ -30,9 +30,9 @@ contributions:
       title: Southern Ring Nebula (NIRCam Image)
 
   sample_data:
-    - key: blue_marble
-      command: napari-nasa-samples.blue_marble
-      display_name: Blue Marble
+#    - key: blue_marble
+#      command: napari-nasa-samples.blue_marble
+#      display_name: Blue Marble
 
     - key: messier_101
       command: napari-nasa-samples.messier_101
