@@ -12,7 +12,7 @@ In particular, you can access directly from napari the recently released images 
 some of the classic and most beautiful images obtained by the venerable and still strong [Hubble Space Telescope](https://hubblesite.org/). 
 More images will be added over time.
 
-Thanks to (NASA)[https://www.nasa.gov/] for releasing these incredible images!
+Thanks to [NASA](https://www.nasa.gov/) for releasing these incredible images!
 
 ![](https://github.com/royerloic/napari-nasa-samples/raw/main/docs/images/teaser.gif)
 
