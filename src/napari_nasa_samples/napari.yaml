@@ -15,6 +15,9 @@ contributions:
     - id: napari-nasa-samples.large_magellanic_cloud
       python_name: napari_nasa_samples._hubble_lmc:make_sample_data
       title: Large Magellanic Cloud
+    - id: napari-nasa-samples.mystic_mountain
+      python_name: napari_nasa_samples._hubble_mystic_mountain:make_sample_data
+      title: Mystic Mountain
 
     - id: napari-nasa-samples.cosmic_cliffs
       python_name: napari_nasa_samples._jwst_cosmic_cliffs:make_sample_data
@@ -43,6 +46,9 @@ contributions:
     - key: large_magellanic_cloud
       command: napari-nasa-samples.large_magellanic_cloud
       display_name: Large Magellanic Cloud, Hubble
+    - key: mystic_mountain
+      command: napari-nasa-samples.mystic_mountain
+      display_name: Mystic Mountain, Hubble
 
     - key: cosmic_cliffs
       command: napari-nasa-samples.cosmic_cliffs
